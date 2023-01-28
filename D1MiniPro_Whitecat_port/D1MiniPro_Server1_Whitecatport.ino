@@ -7,6 +7,7 @@
 //   then the random salt number is passed to our switch statment witch is also randomly,
 //   slecting a value case 0 to 20 maximum to logically execure until break ends statment. 
 //   now if in the event our salt matches numbers from 1 to 7 it appends lines of code to run.
+//   The timezone is set for missoula montana 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
